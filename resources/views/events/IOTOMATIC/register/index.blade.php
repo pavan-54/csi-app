@@ -47,9 +47,16 @@
                     <label class="form-label" for="branch">Select Your Branch</label>
                       <select name="branch" class="select">
                         <option value="" >Branch</option>
-                        <option value="2">CSE</option>
-                        <option value="3">IT</option>
-                        <option value="4">CSIT</option>
+                        <option value="2">CSE-A</option>
+                        <option value="3">CSE-B</option>
+                        <option value="4">CSE-C</option>
+                        <option value="5">CSE-D</option>
+                        <option value="6">IT-A</option>
+                        <option value="7">IT-B</option>
+                        <option value="8">CSIT</option>
+                        <option value="9">CSD</option>
+                        <option value="10">CSC</option>
+                        <option value="11">CSM</option>
                       </select>
       
                     </div>
