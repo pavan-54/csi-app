@@ -53,10 +53,11 @@
                         <option value="5">CSE-D</option>
                         <option value="6">IT-A</option>
                         <option value="7">IT-B</option>
-                        <option value="8">CSIT</option>
-                        <option value="9">CSD</option>
-                        <option value="10">CSC</option>
-                        <option value="11">CSM</option>
+                        <option value="8">IT-C</option>
+                        <option value="9">CSIT</option>
+                        <option value="10">CSD</option>
+                        <option value="11">CSC</option>
+                        <option value="12">CSM</option>
                       </select>
       
                     </div>
