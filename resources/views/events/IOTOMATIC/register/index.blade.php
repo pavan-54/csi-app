@@ -24,6 +24,9 @@
                   <form class="px-md-2" method="POST" action="/wait">
 
                     @csrf
+                    <div class="form-outline mb-4">
+                      <h3 class="text-danger">This event is only for 2nd Year Students</h3>
+                    </div>
       
                     <div class="form-outline mb-4">
                       <label class="form-label" for="form3Example1q">Name</label>
