@@ -27,3 +27,11 @@ Route::get('/register', function () {
 });
 
 Route::post('/insert', [RegisterController::class,'register']);
+
+Route::post('/wait',function(){
+
+    $data['title'] = '404';
+    $data['name'] = 'Page not found';
+    return response()->view('errors.404',$data,404);
+
+});
