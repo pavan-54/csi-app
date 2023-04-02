@@ -21,7 +21,7 @@
                   <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2">IOTOMATIC Registration Form</h3>
                   @include('partials.error')
       
-                  <form class="px-md-2" method="POST" action="/wait">
+                  <form class="px-md-2" method="POST" action="/insert">
 
                     @csrf
                     <div class="form-outline mb-4">
