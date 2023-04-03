@@ -21,7 +21,7 @@
                   <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2">IOTOMATIC Registration Form</h3>
                   @include('partials.error')
       
-                  <form class="px-md-2" method="POST" action="/">
+                  <form class="px-md-2" method="get" action="/">
 
                     @csrf
                     <div class="form-outline mb-4">
@@ -85,7 +85,9 @@
       
                       </div>
                     </div>
-        
+      
+                    <button type="submit" class="btn btn-success btn-lg mb-1">Submit</button>
+      
                   </form>
       
                 </div>
