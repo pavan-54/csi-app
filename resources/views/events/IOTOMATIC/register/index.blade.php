@@ -21,11 +21,11 @@
                   <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2">IOTOMATIC Registration Form</h3>
                   @include('partials.error')
       
-                  <form class="px-md-2" method="POST" action="/insert">
+                  <form class="px-md-2" method="POST" action="/">
 
                     @csrf
                     <div class="form-outline mb-4">
-                      <h3 class="text-danger">This event is only for 2nd Year Students</h3>
+                      <h3 class="text-danger">"Registratons are closed"</h3>
                     </div>
       
                     <div class="form-outline mb-4">
@@ -85,9 +85,7 @@
       
                       </div>
                     </div>
-      
-                    <button type="submit" class="btn btn-success btn-lg mb-1">Submit</button>
-      
+        
                   </form>
       
                 </div>

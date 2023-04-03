@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use PHPUnit\Framework\Attributes\BackupGlobals;
 
 class RegisterController extends Controller
 {
@@ -13,7 +14,8 @@ class RegisterController extends Controller
         # code...
 
         //dd($request->all());
-        
+
+      
         $request->validate([
             'email'=>'required|unique:students,email',
             'name'=>'required',
