@@ -5,7 +5,7 @@
                 <div class="row align-items-center no-gutters">
                     <div class="col-xl-2 col-lg-2">
                         <div class="logo-img">
-                            <a href="index.html" class="navbar-brand">
+                            <a href="/" class="navbar-brand">
                                 <img src="{{ asset('logo/logo-cirlce.png') }}" alt="csi-logo" width="20%">
                             </a>
                         </div>
@@ -15,7 +15,7 @@
                             <nav>
                                 <ul id="navigation">
                                     <li><a class="active" href="/">home</a></li>
-                                    <li><a href="/register">register</a></li>
+                                    {{-- <li><a href="/register">register</a></li> --}}
                                 </ul>
                             </nav>
                         </div>
